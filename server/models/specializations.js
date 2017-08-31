@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-let Specialization = new mongoose.Schema({
+const Specialization = new mongoose.Schema({
     
 
     

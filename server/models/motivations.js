@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-let Motivation = new mongoose.Schema({
+const Motivation = new mongoose.Schema({
     
 
     

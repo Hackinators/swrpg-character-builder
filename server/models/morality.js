@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-let Morals = new mongoose.Schema({
+const Morals = new mongoose.Schema({
     
 
     

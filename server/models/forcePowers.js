@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-let Powers = new mongoose.Schema({
+const Powers = new mongoose.Schema({
     
 
     

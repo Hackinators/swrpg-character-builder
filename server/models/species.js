@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-let Species = new mongoose.Schema({
+const Species = new mongoose.Schema({
     speciesName: {type: String},
     planetOfOrigin: {type: String},
     characteristics: {
@@ -19,9 +19,8 @@ let Species = new mongoose.Schema({
         physiology: {type: String},
         socialogy: {type: String},
         homeWorld: {type: String},
-        language: {type: String}
-        forcePerception: {type: String},
-
+        language: {type: String},
+        forcePerception: {type: String}
     },
     languages: [],
     startingXP: {type: Number},
