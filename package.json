@@ -1,0 +1,36 @@
+{
+  "name": "swrpg-character-builder",
+  "version": "1.0.0",
+  "description": "A character builder/sheet for the Fantasy Flight Star Wars RPG.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "watch": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hackinators/swrpg-character-builder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hackinators/swrpg-character-builder/issues"
+  },
+  "homepage": "https://github.com/Hackinators/swrpg-character-builder#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.109.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "mongoose": "^4.11.10",
+    "vue": "^2.4.2",
+    "vue-router": "^2.7.0"
+  }
+}

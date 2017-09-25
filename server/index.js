@@ -6,7 +6,7 @@ var session = require('express-session');
 
 // CONFIG
 var AWS = require('aws-sdk');
-var config = require('../config');
+var config = require('./config');
 
 
 //Controllers
@@ -22,7 +22,7 @@ var app = express();
 
 // Middleware
 app.use(bodyParser.json({limit: '50mb'}));
-app.use(express.static(__dirname + '/../public'));
+app.use(express.static(__dirname + '/../dist'));
 
 
 //    Endpoints   //
@@ -52,4 +52,4 @@ mongoose.connection.once('open', function(){
 
 app.listen(port, function(){
     console.log('listening on port: ' + port);
-}) 
+})
