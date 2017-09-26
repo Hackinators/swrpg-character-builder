@@ -2,7 +2,7 @@
   "name": "swrpg-character-builder",
   "version": "1.0.0",
   "description": "A character builder/sheet for the Fantasy Flight Star Wars RPG.",
-  "main": "gulpfile.js",
+  "main": "server/index.js",
   "scripts": {
     "dev": "gulp dev",
     "watch": "gulp"

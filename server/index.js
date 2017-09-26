@@ -23,6 +23,7 @@ var app = express();
 // Middleware
 app.use(bodyParser.json({limit: '50mb'}));
 app.use(express.static(__dirname + '/../dist'));
+app.use('/node_modules', express.static(__dirname + '/../node_modules'));
 
 
 //    Endpoints   //
